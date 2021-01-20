@@ -6,6 +6,7 @@
 ))]
 #![no_std]
 #![cfg_attr(docsrs, feature(doc_cfg))]
+#![cfg_attr(bytes_unstable, feature(cfg_target_has_atomic))]
 
 //! Provides abstractions for working with bytes.
 //!
